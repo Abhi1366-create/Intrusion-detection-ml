@@ -1,6 +1,6 @@
 pandas
 numpy
 scikit-learn
-matplotlib
-tensorflow
+xgboost
+streamlit
 joblib
