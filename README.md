@@ -6,12 +6,12 @@ a machine learning system to detect and classify network attacks using the nsl-k
 
 <table>
 <tr>
-<td><img src="Screenshoot/screenshot-logs.png" width="100%"></td>
-<td><img src="Screenshoot/screenshot-charts.png" width="100%"></td>
+<td><img src="screenshots/screenshot-logs.png" width="100%"></td>
+<td><img src="screenshots/screenshot-charts.png" width="100%"></td>
 </tr>
 <tr>
-<td><img src="Screenshoot/screenshot-sim1.png" width="100%"></td>
-<td><img src="Screenshoot/screenshot-sim2.png" width="100%"></td>
+<td><img src="screenshots/screenshot-sim1.png" width="100%"></td>
+<td><img src="screenshots/screenshot-sim2.png" width="100%"></td>
 </tr>
 </table>
 
