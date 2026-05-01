@@ -1,6 +1,23 @@
-# Ai intrusion detection system
+# ai intrusion detection system
 
 a machine learning system to detect and classify network attacks using the nsl-kdd dataset
+
+## preview
+
+<table>
+<tr>
+<td><img src="Screenshoot/screenshot-logs.png" width="100%"></td>
+<td><img src="Screenshoot/screenshot-charts.png" width="100%"></td>
+</tr>
+<tr>
+<td><img src="Screenshoot/screenshot-sim1.png" width="100%"></td>
+<td><img src="Screenshoot/screenshot-sim2.png" width="100%"></td>
+</tr>
+</table>
+
+dashboard showing logs, attack distribution and simulation results
+
+---
 
 ## overview
 
@@ -11,13 +28,17 @@ this project builds a simple intrusion detection system using a two-stage approa
 
 it also includes a dashboard to visualize results and simulate attacks
 
+---
+
 ## features
 
 - binary and multi-class classification  
-- simple dashboard using streamlit  
+- dashboard using streamlit  
 - attack simulation  
 - logs and charts  
 - separate test script  
+
+---
 
 ## project structure
 
@@ -41,6 +62,8 @@ readme.md
 requirements.txt  
 .gitignore  
 
+---
+
 ## setup
 
 open your project folder
@@ -55,6 +78,8 @@ mkdir models
 install dependencies
 
 pip install pandas numpy scikit-learn xgboost streamlit joblib  
+
+---
 
 ## dataset
 
@@ -74,6 +99,8 @@ ml-workspace/data/
 - kddtrain+.txt  
 - kddtest+.txt  
 
+---
+
 ## run the project
 
 train the model
@@ -87,6 +114,8 @@ streamlit run ui.py
 run test script (optional)
 
 python test.py  
+
+---
 
 ## how to use
 
@@ -103,6 +132,8 @@ simulation mode
 - click run simulation  
 - view logs and charts  
 
+---
+
 ## output
 
 - prediction (normal or attack)  
@@ -112,19 +143,25 @@ simulation mode
 - logs  
 - charts  
 
+---
+
 ## important
 
 - dataset is not included  
 - run train.py before ui.py  
 - dataset must be inside data folder  
 
+---
+
 ## common errors
 
 dataset not found  
-place files inside data folder  
+place kddtrain+.txt and kddtest+.txt inside data  
 
 models not found  
 run python train.py  
+
+---
 
 ## author
 
